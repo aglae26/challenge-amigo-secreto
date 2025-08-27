@@ -19,3 +19,8 @@ amigos.push(input.value)
 
 // Limpia el campo de entrada.
 input.value = ''
+
+// Muestra la lista actualizada de amigos.
+function actualizarLista() {
+  
+}
