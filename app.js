@@ -5,7 +5,7 @@ let amigos = []
 
 // Función para agregar un amigo a la lista.
 function agregarAmigo() {
-  const input = document.getElementById('nombreAmigo')
+  const input = document.getElementById('amigo')
   const nombreAmigo = input.value.trim()
 
   // Verifica que el input no esté vacío.
