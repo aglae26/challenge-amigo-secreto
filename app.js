@@ -22,5 +22,5 @@ input.value = ''
 
 // Muestra la lista actualizada de amigos.
 function actualizarLista() {
-  
+  const lista = document.getElementById('listaAmigos')
 }
