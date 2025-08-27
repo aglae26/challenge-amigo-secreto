@@ -13,13 +13,14 @@ function agregarAmigo() {
     alert('Por favor, ingresa un nombre.')
     return
   }
+
+  // Agrega el nombre del amigo al array.
+  amigos.push(nombreAmigo)
+
+  // Limpia el campo de entrada.
+  input.value = ''
 }
 
-// Agrega el nombre del amigo al array.
-amigos.push(nombreAmigo)
-
-// Limpia el campo de entrada.
-input.value = ''
 
 // Muestra la lista actualizada de amigos.
 function actualizarLista() {
@@ -34,19 +35,19 @@ function actualizarLista() {
 // Sortea un amigo de la lista.
 function sortearAmigo() {
 
-    // Verifica que haya amigos en la lista.
-    if (amigos.length === 0) {
-        alert('No hay amigos en la lista para sortear.')
-        return
-    }
-    
-    // Genera un índice aleatorio.
-    const indiceAleatorio = Math.floor(Math.random() * amigos.length)
+  // Verifica que haya amigos en la lista.
+  if (amigos.length === 0) {
+    alert('No hay amigos en la lista para sortear.')
+    return
+  }
 
-    // Muestra el amigo sorteado.
-    const amigoSorteado = amigos[indiceAleatorio]
+  // Genera un índice aleatorio.
+  const indiceAleatorio = Math.floor(Math.random() * amigos.length)
 
-    // Amigo sorteado
-    const resultado = document.getElementById('resultado')
-    resultado.innerHTML = `El amigo sorteado es: <strong>${amigoSorteado}</strong>`
+  // Muestra el amigo sorteado.
+  const amigoSorteado = amigos[indiceAleatorio]
+
+  // Amigo sorteado
+  const resultado = document.getElementById('resultado')
+  resultado.innerHTML = `El amigo sorteado es: <strong>${amigoSorteado}</strong>`
 }
