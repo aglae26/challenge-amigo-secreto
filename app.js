@@ -32,4 +32,11 @@ function actualizarLista() {
 
 // Sortea un amigo de la lista.
 function sortearAmigo() {
+    
+    // Verifica que haya amigos en la lista.
+    if (amigos.length === 0) {
+        alert('No hay amigos en la lista para sortear.')
+        return
+    }
+    
 }
