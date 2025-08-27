@@ -29,3 +29,7 @@ function actualizarLista() {
     lista.innerHTML += `<li>${amigos[i]}</li>`
   }
 }
+
+// Sortea un amigo de la lista.
+function sortearAmigo() {
+}
