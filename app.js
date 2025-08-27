@@ -16,3 +16,6 @@ function agregarAmigo() {
 
 // Agrega el nombre del amigo al array.
 amigos.push(input.value)
+
+// Limpia el campo de entrada.
+input.value = ''
