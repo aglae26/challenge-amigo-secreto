@@ -13,3 +13,6 @@ function agregarAmigo() {
     return
   }
 }
+
+// Agrega el nombre del amigo al array.
+amigos.push(input.value)
