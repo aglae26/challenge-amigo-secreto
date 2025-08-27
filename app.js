@@ -2,3 +2,8 @@
 
 // Almacena los nombres ingresados.
 let amigos = []
+
+// Función para agregar un amigo a la lista.
+function agregarAmigo() {
+    
+}
